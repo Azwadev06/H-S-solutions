@@ -22,7 +22,7 @@ export function Contact() {
     // Create mailto link with form data
     const subject = encodeURIComponent(`New inquiry from ${formData.name}`)
     const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)
-    const mailtoLink = `mailto:contact@hssolutions.com?subject=${subject}&body=${body}`
+    const mailtoLink = `mailto:hssolutions.bizz@gmail.com?subject=${subject}&body=${body}`
 
     window.location.href = mailtoLink
 
@@ -106,10 +106,10 @@ export function Contact() {
                   <div>
                     <p className="text-sm text-muted-foreground mb-1">Email</p>
                     <a
-                      href="mailto:contact@hssolutions.com"
+                      href="mailto:hssolutions.bizz@gmail.com"
                       className="text-foreground hover:text-primary transition-colors font-medium"
                     >
-                      contact@hssolutions.com
+                      hssolutions.bizz@gmail.com
                     </a>
                   </div>
                   <div>
