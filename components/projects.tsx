@@ -12,7 +12,7 @@ const projects = [
     category: "Full Stack Development",
     description:
       "Built a scalable and efficient solution that connects foreign businesses with local partners seamlessly",
-    image: "/project.jpeg",
+    image: "/Project.jpeg",
     results: ["300% increase in sales", "50% faster checkout", "99.9% uptime"],
     tech: ["React", "Node.js", "MongoDB", "Express", "AWS" ],
   },
