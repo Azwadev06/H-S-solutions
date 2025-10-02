@@ -9,35 +9,27 @@ import { ArrowRight } from "lucide-react"
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    role: "CEO, TechStart Inc",
-    image: "/professional-woman-ceo.png",
+    name: "Praveen K.",
     content:
-      "H&S Solutions transformed our outdated system into a modern, scalable platform. The AI features they implemented have increased our efficiency by 60%. Highly recommended!",
+      "Great experience working with H&S Solutions . They demonstrated strong knowledge in their field and maintained clear, prompt communication throughout the project. Very professional and easy to work with — highly recommended",
     rating: 5,
   },
   {
-    name: "Michael Chen",
-    role: "Founder, GameVerse Studios",
-    image: "/professional-man-founder.png",
+    name: "Srinivas B.",
     content:
-      "The game development expertise at H&S is outstanding. They brought our vision to life with stunning graphics and smooth gameplay. Our users love it!",
+    "Very good job. Delivered on time as per the agreed plan. Will comeback to H&S for next projects. Appreciate the prompt response and patience. Thank you very much",
     rating: 5,
   },
   {
-    name: "Emily Rodriguez",
-    role: "Marketing Director, GrowthCo",
-    image: "/professional-woman-marketing-director.jpg",
+    name: "Daryna S",
     content:
-      "Their SEO optimization and automation solutions have been game-changing for us. We've seen a 300% increase in organic traffic and saved countless hours on manual tasks.",
+      "Azwa S. did an excellent job on my motion graphics project. She understood the requirements clearly, delivered exactly what I wanted, and even added her own creativity to make it better. Communication was smooth, deadlines were respected, and the final result was perfect.",
     rating: 5,
   },
   {
-    name: "David Park",
-    role: "CTO, FinanceFlow",
-    image: "/professional-man-cto.jpg",
+    name: "Adnan Anjum C.",
     content:
-      "Working with H&S Solutions was seamless. They understood our complex requirements and delivered a robust full-stack solution on time and within budget.",
+      "I’m based in Dubai, and this was actually my first time working with H&S. Honestly, I never trusted these, but now I can say it’s worth using. Had a really good experience with this developer, the project was delivered on time and results were better than I expected. They listened carefully and fixed everything quickly. Definitely someone I’d recommend and work with again",
     rating: 5,
   },
 ]
@@ -87,14 +79,10 @@ export function Testimonials() {
                 </div>
 
                 <div className="flex items-center gap-3 md:gap-4">
-                  <img
-                    src={testimonial.image || "/placeholder.svg"}
-                    alt={testimonial.name}
-                    className="w-10 h-10 md:w-12 md:h-12 rounded-full object-cover ring-2 ring-primary/20 group-hover:ring-primary/50 transition-all"
-                  />
+                  
                   <div>
                     <div className="font-semibold text-foreground text-sm md:text-base">{testimonial.name}</div>
-                    <div className="text-xs md:text-sm text-muted-foreground">{testimonial.role}</div>
+                    
                   </div>
                 </div>
               </CardContent>
