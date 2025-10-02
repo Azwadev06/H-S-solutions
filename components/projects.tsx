@@ -8,31 +8,31 @@ import { ArrowRight, ExternalLink } from "lucide-react"
 
 const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "Omendom Ecosystem",
     category: "Full Stack Development",
     description:
-      "Built a scalable e-commerce platform with real-time inventory management, payment integration, and AI-powered product recommendations.",
-    image: "/modern-ecommerce-dashboard.png",
+      "Built a scalable and efficient solution that connects foreign businesses with local partners seamlessly",
+    image: "/project.jpeg",
     results: ["300% increase in sales", "50% faster checkout", "99.9% uptime"],
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
+    tech: ["React", "Node.js", "MongoDB", "Express", "AWS" ],
   },
   {
-    title: "AI-Powered Analytics Dashboard",
+    title: "AI-Sale Agent Setup",
     category: "AI/ML Solutions",
     description:
-      "Developed an intelligent analytics platform that uses machine learning to predict customer behavior and optimize marketing campaigns.",
-    image: "/ai-analytics-dashboard-with-charts.jpg",
-    results: ["40% better predictions", "60% time saved", "2x ROI improvement"],
-    tech: ["Python", "TensorFlow", "React", "PostgreSQL"],
+      "Develop and deployed a complete AI sales automation system, designed to transform the way businesses handle inbound leads from Facebook Lead Ads to Zoho CRM.",
+    image: "/ai-sale-agent.png",
+    results: ["40% better results", "60% time saved", "2x ROI improvement"],
+    tech: ["Python", "CRM", "ZOHO", "PostgreSQL"],
   },
   {
-    title: "Automation Workflow System",
+    title: "Cold Email Automation Bot",
     category: "Automation & API Integration",
     description:
-      "Created a comprehensive automation system that connects multiple business tools, eliminating manual data entry and reducing errors.",
+      "Developed a Cold Email Automation Bot that makes running outreach campaigns seamless and fully automated.",
     image: "/workflow-automation-interface.png",
     results: ["80% time reduction", "Zero data errors", "$50K annual savings"],
-    tech: ["Node.js", "REST APIs", "Webhooks", "Redis"],
+    tech: ["Node.js", "SMTP integration", "Python (Flask)", "Cloud VPS"],
   },
   {
     title: "Multiplayer Racing Game",
@@ -117,14 +117,7 @@ export function Projects() {
                   ))}
                 </div>
 
-                <Button
-                  variant="ghost"
-                  className="group/btn p-0 h-auto font-semibold text-primary hover:text-primary hover:bg-transparent"
-                  onClick={() => alert("Case study coming soon!")}
-                >
-                  View Case Study
-                  <ExternalLink className="w-4 h-4 ml-2 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform" />
-                </Button>
+               
               </CardContent>
             </Card>
           ))}
