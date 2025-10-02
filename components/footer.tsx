@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github, Twitter } from "lucide-react"
+import { Mail, Linkedin, Github, Twitter, Instagram } from "lucide-react"
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -25,25 +25,25 @@ export function Footer() {
             </p>
             <div className="flex items-center gap-4">
               <a
-                href="#"
+                href="https://www.linkedin.com/company/h-s-solutions-biz/"
                 className="w-10 h-10 rounded-full bg-primary/10 hover:bg-primary flex items-center justify-center transition-all group"
               >
                 <Linkedin className="w-5 h-5 text-primary group-hover:text-white transition-colors" />
               </a>
               <a
-                href="#"
+                href="https://github.com/Azwadev06"
                 className="w-10 h-10 rounded-full bg-primary/10 hover:bg-primary flex items-center justify-center transition-all group"
               >
                 <Github className="w-5 h-5 text-primary group-hover:text-white transition-colors" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/hns.solutions/"
                 className="w-10 h-10 rounded-full bg-primary/10 hover:bg-primary flex items-center justify-center transition-all group"
               >
-                <Twitter className="w-5 h-5 text-primary group-hover:text-white transition-colors" />
+                <Instagram className="w-5 h-5 text-primary group-hover:text-white transition-colors" />
               </a>
               <a
-                href="mailto:contact@hssolutions.com"
+                href="hnssolutions.bizz@gmail.com"
                 className="w-10 h-10 rounded-full bg-primary/10 hover:bg-primary flex items-center justify-center transition-all group"
               >
                 <Mail className="w-5 h-5 text-primary group-hover:text-white transition-colors" />
